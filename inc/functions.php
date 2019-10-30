@@ -5,10 +5,10 @@
 // 	'formularz' => 'Formularz',
 // 	'klasa' => 'Klasy'
 // );
+$ret = array(); // tablica zawierajaca wyniki zapytań
 
 function get_menu($id) {
-	global $db;
-	$ret = array();
+	global $db, $ret;
  	db_query('SELECT * FROM menu', $ret);
  	// print_r($ret);
  	foreach ($ret as $k => $t) {
@@ -21,10 +21,13 @@ function get_menu($id) {
 }
 
 function get_page_title($id) {
-	global $pages;
-	if (array_key_exists($id, $pages))
-		echo $pages[$id];
-	else
+	global $ret;
+	foreach ($ret as $k => $t){
+		if($t['plik'] == $id){
+			echo $t['tytul'];
+			return;
+		}
+}
 		echo 'Aplikacja PHP';
 }
 

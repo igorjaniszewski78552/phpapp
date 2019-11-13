@@ -455,3 +455,11 @@ Stack trace:
 #2 /home/kl2ag1/public_html/phpapp/index.php(22): include_once('/home/kl2ag1/pu...')
 #3 {main}
   thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 16
+[13-Nov-2019 08:59:58 Europe/Warsaw] PHP Warning:  require_once(inc/functions.php): failed to open stream: Brak dostępu in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 08:59:58 Europe/Warsaw] PHP Fatal error:  require_once(): Failed opening required 'inc/functions.php' (include_path='.:/usr/share/php') in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:00:57 Europe/Warsaw] PHP Warning:  require_once(inc/functions.php): failed to open stream: Brak dostępu in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:00:57 Europe/Warsaw] PHP Fatal error:  require_once(): Failed opening required 'inc/functions.php' (include_path='.:/usr/share/php') in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:02:08 Europe/Warsaw] PHP Warning:  require_once(inc/functions.php): failed to open stream: Brak dostępu in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:02:08 Europe/Warsaw] PHP Fatal error:  require_once(): Failed opening required 'inc/functions.php' (include_path='.:/usr/share/php') in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:02:16 Europe/Warsaw] PHP Warning:  require_once(inc/functions.php): failed to open stream: Brak dostępu in /home/kl2ag1/public_html/phpapp/index.php on line 13
+[13-Nov-2019 09:02:16 Europe/Warsaw] PHP Fatal error:  require_once(): Failed opening required 'inc/functions.php' (include_path='.:/usr/share/php') in /home/kl2ag1/public_html/phpapp/index.php on line 13
